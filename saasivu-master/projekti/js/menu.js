@@ -12,7 +12,7 @@ document.getElementById('box1').addEventListener('click', function () {
 
 document.getElementById('box2').addEventListener('click', function () {
     //scroll videoon
-    window.scrollTo(0, 1400);
+    window.scrollTo(0, 1500);
 });
 
 document.getElementById('box3').addEventListener('click', function () {
