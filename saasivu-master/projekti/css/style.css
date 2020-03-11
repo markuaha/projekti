@@ -320,10 +320,17 @@ p>img {
 }
 
 .video{
-    margin-top: 25em;
+    display: block;
+    margin: 25em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.youtube{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 3em;
 }
 
