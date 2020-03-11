@@ -7,9 +7,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-blend-mode: luminosity;
-    background-color: #16465b;
-    /* background-image: url('../img/bg/Himmelsblau.jpg'); */
-    /* background-image: linear-gradient(to right, #07263b, #16465b); */
+    background-image: linear-gradient(to right, #083E57, #16465b);
 
 
 
@@ -160,10 +158,9 @@ p>img {
     min-height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    //background-color: rgb(55, 67, 89);
+    //background-color: #16465B;
     background-blend-mode: luminosity;
     /* background-image: url('../img/bg/blue.png'); */
-    background-image: linear-gradient(to bottom, #072e43, #175369);
     display: flex;
 }
 
@@ -319,9 +316,14 @@ p>img {
     grid-column: 1/4;
 }
 
+#kuva {
+    margin-top: 3.2em;
+    margin-left: -12.9em;
+}
+
 .video{
     display: block;
-    margin: 25em;
+    margin: 32em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;

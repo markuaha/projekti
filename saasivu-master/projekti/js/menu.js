@@ -16,6 +16,6 @@ document.getElementById('box2').addEventListener('click', function () {
 });
 
 document.getElementById('box3').addEventListener('click', function () {
-    //scroll yhteystietoihin/kuviin5
-    window.scrollTo(0, 0);
+    //url kansioon missä kuvat
+    location.assign('http://users.metropolia.fi/~123123123/');
 });
