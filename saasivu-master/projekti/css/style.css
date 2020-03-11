@@ -7,8 +7,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-blend-mode: luminosity;
-    background-image: linear-gradient(to top, #07263b, #16465b);
-
+    background-color: #16465b;
     /* background-image: url('../img/bg/Himmelsblau.jpg'); */
     /* background-image: linear-gradient(to right, #07263b, #16465b); */
 
@@ -123,7 +122,7 @@ p>img {
     grid-template-columns: 0.9fr 0.8fr 0.8fr 1fr 10fr;
     line-height: 2.5rem;
     background-color: #0fb698;
-    backdrop-filter: blur(1rem);
+    z-index:1;
 }
 
 /* header sisällön värit */
@@ -163,7 +162,8 @@ p>img {
     background-attachment: fixed;
     //background-color: rgb(55, 67, 89);
     background-blend-mode: luminosity;
-    background-image: linear-gradient(to bottom, #07263b, #16465b);
+    /* background-image: url('../img/bg/blue.png'); */
+    background-image: linear-gradient(to bottom, #072e43, #175369);
     display: flex;
 }
 
@@ -317,6 +317,14 @@ p>img {
     display: grid;
     grid-template-columns: 4fr;
     grid-column: 1/4;
+}
+
+.video{
+    margin-top: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 3em;
 }
 
 html, body {

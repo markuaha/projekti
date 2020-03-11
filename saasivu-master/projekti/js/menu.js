@@ -12,10 +12,10 @@ document.getElementById('box1').addEventListener('click', function () {
 
 document.getElementById('box2').addEventListener('click', function () {
     //scroll videoon
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 1000);
 });
 
 document.getElementById('box3').addEventListener('click', function () {
-    //scroll yhteystietoihin/kuviin
+    //scroll yhteystietoihin/kuviin5
     window.scrollTo(0, 0);
 });
